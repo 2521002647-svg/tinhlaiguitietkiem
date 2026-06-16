@@ -1,5 +1,21 @@
 import streamlit as st
 st.image("GIAHUY.jpg")
+base = "light"
+
+# Màu của các nút bấm và thanh trượt (slider)
+primaryColor = "#F63366"
+
+# Màu nền chính của ứng dụng
+backgroundColor = "#FFFFFF"
+
+# Màu nền của Sidebar (thanh điều hướng) và các widget
+secondaryBackgroundColor = "#F0F2F6"
+
+# Màu chữ chính
+textColor = "#262730"
+
+# Kiểu chữ: "sans serif", "serif", hoặc "monospace"
+font = "sans serif"
 # Tiêu đề ứng dụng
 st.title("💰APP TÍNH TIỀN GỬI TIẾT KIỆM_ĐỀ TÀI 4_NGUYỄN GIA HUY💸")
 
